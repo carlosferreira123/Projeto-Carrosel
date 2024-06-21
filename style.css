@@ -153,3 +153,8 @@ header a {
     color: #000;
     transition: 0.7s;
 }
+
+/* Movimento da thumb */
+@keyframes effectNextThumb {
+    
+}
