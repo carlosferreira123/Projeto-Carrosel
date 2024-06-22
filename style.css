@@ -155,6 +155,26 @@ header a {
 }
 
 /* Movimento da thumb */
-@keyframes effectNextThumb {
+.container.next .thumb{
+    animation: effectNextThumb 0.5s linear 1 forwards;
     
+}
+
+@keyframes effectNextThumb {
+    from {
+        transform: translateX(150px);
+    }
+    
+}
+/* Movimento ultima thumb */
+.container.next .thumb .thumb-item:nth-last-child(1) {
+ 
+    animation: effectLastThumb 0.5s linear 1 forwards ;
+}
+
+@keyframes effectLastThumb {
+    form {
+        width: 0;
+        opacity: 0;
+    }
 }

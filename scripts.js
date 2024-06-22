@@ -12,8 +12,7 @@ function moveItemsOnClick(type) {
     let listItems = document.querySelectorAll('.list .list-item')
     let thumbItems = document.querySelectorAll('.thumb .thumb-item')
 
-   console.log(listItems)
-   console.log(thumbItems)
+
    
    
     if(type === 'next') {
@@ -30,6 +29,5 @@ function moveItemsOnClick(type) {
     setTimeout(() => {
         container.classList.remove('next')
         container.classList.remove('back')
-
-      }  , 3000);
+    }, 3000);
 }
